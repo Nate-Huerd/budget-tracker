@@ -1,6 +1,8 @@
 let transactions = [];
 let myChart;
 
+// create new database?
+
 fetch("/api/transaction")
   .then(response => {
     return response.json();
